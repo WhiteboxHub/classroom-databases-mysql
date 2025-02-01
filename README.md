@@ -49,6 +49,30 @@ Ensure you have the following installed:
    - **Username:** `root`
    - **Password:** `root`
 
+### Accessing MySQL Database
+
+#### Using MySQL Shell (`mysqlsh`)
+1. Install MySQL Shell if not already installed. You can download it from [MySQL Downloads](https://dev.mysql.com/downloads/shell/).
+2. Connect to the database using:
+   ```bash
+   mysqlsh --host=localhost --port=3306 --user=root --password=root
+   ```
+3. Once connected, switch to SQL mode by running:
+   ```sql
+   \\sql
+   ```
+
+#### Using MySQL Workbench
+1. Download and install [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
+2. Open MySQL Workbench and create a new connection:
+   - Connection Name: `Training Management DB`
+   - Hostname: `localhost`
+   - Port: `3306`
+   - Username: `root`
+   - Password: `root`
+3. Click "Test Connection" to verify the setup.
+4. Once connected, open the SQL Editor to run queries.
+
 ---
 
 ## SQL Query Examples
